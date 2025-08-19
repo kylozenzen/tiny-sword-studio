@@ -1,39 +1,160 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tiny Sword Studio – Sharp Content. Big Impact.</title>
-  <meta name="description" content="Small studio creating sharp, scroll-stopping visuals for brands, creators, and families. We help you cut through the noise with clarity and style.">
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiny Sword Studio – Sharp Content. Big Impact.</title>
+    <meta name="description" content="Small studio creating sharp, scroll-stopping visuals for brands, creators, and families. We help you cut through the noise with clarity and style.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Libre+Baskerville&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <a href="#" class="logo">
-        <img src="images/logo.png" alt="Tiny Sword Studio Logo">
-      </a>
-      <nav>
-        <a href="#packages">Packages</a>
-        <a href="#process">Process</a>
-        <a href="#contact">Contact</a>
-        <div class="nav-underline"></div>
-      </nav>
-    </header>
+    <div class="wrap">
+        <header>
+            <a href="#" class="logo">
+                <!-- Your logo is now linked from the images folder -->
+                <img src="images/logo.jpg" alt="Tiny Sword Studio Logo">
+            </a>
+            <nav>
+                <a href="#packages">Packages</a>
+                <a href="#process">Process</a>
+                <!-- <a href="#work">Work</a> -->
+                <a href="#contact">Contact</a>
+                <div class="nav-underline"></div>
+            </nav>
+        </header>
 
-    <main>
-      <!-- Add your sections here (Hero, Packages, etc.) -->
-    </main>
+        <main>
+            <section class="hero">
+                <div class="hero-text">
+                    <h1>Small studio. Big impact.</h1>
+                    <p class="lead">You don’t need a giant army. You need the right blade. We create sharp, scroll-stopping visuals for brands, creators, and families who want to cut through the noise.</p>
+                    <div class="cta">
+                        <a class="btn primary" href="#contact">Let's make something sharp</a>
+                        <a class="btn alt" href="#packages">View Packages</a>
+                    </div>
+                </div>
+            </section>
 
-    <footer>
-      <p>© <span id="yr"></span> Tiny Sword Studio. All Rights Reserved.</p>
-      <p>Small team. Mighty impact.</p>
-    </footer>
-  </div>
-  <script src="script.js"></script>
+            <section id="packages" class="panel animate-in">
+                <h2>Content Packages</h2>
+                <div class="grid-3">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>The Point</h3>
+                            <div class="price">$150</div>
+                        </div>
+                        <ul>
+                            <li><b>Best For:</b> A quick strike of content</li>
+                            <li>30–45 min session (1 location)</li>
+                            <li>10 edited photos <em>or</em> 1 short video</li>
+                            <li>Delivered in 3–5 business days</li>
+                        </ul>
+                    </div>
+                    <div class="card popular">
+                        <span class="tag">Most Popular</span>
+                        <div class="card-header">
+                            <h3>The Edge</h3>
+                            <div class="price">$300</div>
+                        </div>
+                        <ul>
+                            <li><b>Best For:</b> Versatile social content</li>
+                            <li>1–2 hour session (up to 2 locations)</li>
+                            <li>20–25 photos + 1 short video</li>
+                            <li>Delivered in 5 business days</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>The Blade</h3>
+                            <div class="price">$500</div>
+                        </div>
+                        <ul>
+                            <li><b>Best For:</b> A full arsenal of content</li>
+                            <li>Half-day session (4 hrs)</li>
+                            <li>40+ photos + 2 short videos</li>
+                            <li>Content strategy guide</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="process" class="panel animate-in process-section" style="margin-top:24px;">
+                <h2>Our Process (It's Not Scary)</h2>
+                <div class="process-grid">
+                    <div class="process-step">
+                        <div class="icon">🗺️</div>
+                        <h3>1. The Plot Twist</h3>
+                        <p>We start with a quick chat to figure out what you actually need. No jargon, no nonsense, just a clear plan.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="icon">🎬</div>
+                        <h3>2. The Action Scene</h3>
+                        <p>This is the fun part. We shoot your content in a relaxed, focused session. You just show up and we'll handle the rest.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="icon">✨</div>
+                        <h3>3. The Big Reveal</h3>
+                        <p>You get a gallery of sharp, ready-to-use visuals. All you have to do is post them and take all the credit.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- To show Recent Work, remove the comment tags around the <section> below -->
+            <!--
+            <section id="work" class="panel animate-in" style="margin-top:24px;">
+                <h2>Recent Work</h2>
+                <div class="portfolio">
+                    <div class="shot">
+                        <img src="images/work-1.jpg" alt="Description of work 1">
+                    </div>
+                    <div class="shot">
+                        <img src="images/work-2.jpg" alt="Description of work 2">
+                    </div>
+                    <div class="shot">
+                        <img src="images/work-3.jpg" alt="Description of work 3">
+                    </div>
+                    <div class="shot">
+                        <img src="images/work-4.jpg" alt="Description of work 4">
+                    </div>
+                </div>
+            </section>
+            -->
+
+            <section id="contact" class="panel animate-in" style="margin-top:24px;">
+                <h2>Your story, sharpened.</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <p>Ready to create visuals that cut through the noise? Tell me about your project. I’m a creative partner, not a content overlord.</p>
+                        <p><strong>Email:</strong> <a href="mailto:hirebencampbell@gmail.com">hirebencampbell@gmail.com</a></p>
+                        <p><strong>Instagram:</strong> <a href="https://instagram.com/tinyswordstudio" target="_blank" rel="noopener">@tinyswordstudio</a></p>
+                    </div>
+                    <form action="https://formspree.io/f/yourformid" method="POST">
+                        <label for="name" class="sr-only">Name</label>
+                        <input id="name" name="name" placeholder="Name" required>
+                        <label for="email" class="sr-only">Email</label>
+                        <input id="email" name="email" type="email" placeholder="Email" required>
+                        <label for="message" class="sr-only">Message</label>
+                        <textarea id="message" name="message" placeholder="Tell me about your project..." rows="3"></textarea>
+                        <button class="btn primary" type="submit">Send Inquiry</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© <span id="yr"></span> Tiny Sword Studio. All Rights Reserved.</p>
+            <p>Small team. Mighty impact.</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
 </body>
 </html>
